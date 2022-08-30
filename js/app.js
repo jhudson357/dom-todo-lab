@@ -34,7 +34,6 @@ function handleResetClick(evt) {
   document.getElementById('todo-list').innerHTML = ''
 }
 
-
 function deleteItems(evt) {
   // get the parent of the list item that you want to receive --> save as const
   // evt.target if a reference to the object onto which the event was dispatched
@@ -44,11 +43,8 @@ function deleteItems(evt) {
   // remove the item that you clicked
   // removeChild(node) --> node is the list item you clicked (evt.target)
   parentNode.removeChild(evt.target)
-  
 }
 
-
-//console.log(document.getElementsByTagName('li'))
 
 
 
